@@ -1,11 +1,19 @@
+@font-face{
+src:url(BLKCHCRY.TTF);
+font-family: BlackChancery;}
+
+@font-face{
+src:url(Staatliches.ttf);
+font-family: Staatliches;}
+
 body
-    {    
+    {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Zhi Mang Xing','sans-serif';
-        font-size: 1.3rem;
-        background: url("1.png");
+        font-family: Staatliches;
+        font-size: 1.2rem;
+        background:url("1.png") ;
         background-size: cover;
         background-attachment: fixed;
         line-height: 1.5;
@@ -13,18 +21,21 @@ body
         }
 h1{
     text-align: center;
+    font-family: BlackChancery;
 }
+
+/* .content-wrap h1{
+  text-align: center;
+  font-family: BlackChancery;
+} */
+
 #showcase{
     min-height: 380px;
     text-align: center;
-    background-color: transparent;
-}
-.container1{
-    background-color: transparent;
 }
 #showcase .bg-image{
     position: absolute;
-    background: #333 url(2.jpg);
+    background:transparent;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,51 +48,47 @@ h1{
 #showcase h1{
     position: relative;
     padding-top: 140px;
-    
+
     font-size: 7vh;
     letter-spacing: 3.5px;
         overflow: hidden;
         background: linear-gradient(90deg,#000,#fff,#000);
         background-size: 80%;
-    font-family: 'Handlee', cursive;
+    font-family: BlackChancery;
         background-repeat: no-repeat;
         animation: animate 3s linear infinite;
         -webkit-background-clip:text;
         -webkit-text-fill-color:rgba(255,255,255,0.01);
-        
+
     }
     @keyframes animate{
         0%
         {
             background-position: -300%;
-        
+
         }
         100%
         {
             background-position: 300%;
-        
+
         }
     }
 
-    
+
 img{
     display: block;
     width: 100%;
     height: auto;
 }
-.card{
-    background-color: transparent;
-}
+
 .card h1{
     margin: 0;
     padding: 1em 0;
-    
-}    
+}
 .card p{
     margin: 0;
     padding: 1em 0;
-
-}    
+}
 .card > div{
     text-align: justify;
     background-color: transparent;
@@ -94,7 +101,7 @@ img{
     .content-wrap{
         grid-column: 2/4;
     }
-    
+
 img{
     width: 100%;
 }
@@ -102,12 +109,12 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    background: #f1f1f1;
+    background:transparent;
     margin-bottom: 2rem;
 }
 .card h1{
     margin-bottom: 2rem;
-}    
+}
 .card img{
     height: 400px;
 }
@@ -119,7 +126,7 @@ img{
     order:2;
 }
     #showcase .bg-image{
-        
+
         background-position: center;
     }
     #showcase h1{
@@ -128,4 +135,3 @@ img{
         padding-top: 100px;
     }
 }
-    
