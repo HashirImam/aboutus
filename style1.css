@@ -5,7 +5,9 @@ body
         box-sizing: border-box;
         font-family: 'Zhi Mang Xing','sans-serif';
         font-size: 1.3rem;
-        background: #f9f9f9;
+        background: url("1.png");
+        background-size: cover;
+        background-attachment: fixed;
         line-height: 1.5;
         text-align: center;
         }
@@ -15,7 +17,10 @@ h1{
 #showcase{
     min-height: 380px;
     text-align: center;
-    
+    background-color: transparent;
+}
+.container1{
+    background-color: transparent;
 }
 #showcase .bg-image{
     position: absolute;
@@ -64,16 +69,22 @@ img{
     width: 100%;
     height: auto;
 }
+.card{
+    background-color: transparent;
+}
 .card h1{
     margin: 0;
     padding: 1em 0;
+    
 }    
 .card p{
     margin: 0;
     padding: 1em 0;
+
 }    
 .card > div{
     text-align: justify;
+    background-color: transparent;
 }
 @media(min-width: 700px){
     .grid{
