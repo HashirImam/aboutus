@@ -113,16 +113,20 @@ img{
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     background:transparent;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+#firstclass{
+
+    margin-bottom: 8rem;
 }
 .card h1{
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 .card img{
     height: 400px;
 }
 .card > div{
-    padding: 4rem;
+    padding: 2rem;
     text-align: justify;
 }
 .card:nth-child(even) img{
@@ -153,4 +157,3 @@ img{
         padding-top: 100px;
     }
 }
-
