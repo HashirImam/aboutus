@@ -9,10 +9,11 @@ font-family: Staatliches;}
 body
     {
         margin: 0;
-        padding: 0;
+        padding-left: 5%;
+        padding-right: 5%;
         box-sizing: border-box;
-        font-family: Staatliches;
-        font-size: 1.2rem;
+        font-family: Arial;
+        font-size: 1rem;
         background:url("1.png") ;
         background-size: cover;
         background-attachment: fixed;
@@ -80,7 +81,7 @@ img{
     display: block;
     width: 100%;
     height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
 
 }
 
@@ -126,9 +127,39 @@ img{
     height: 400px;
 }
 .card > div{
-    padding: 2rem;
-    text-align: justify;
+
 }
+
+.card #one
+{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  text-align: justify;
+}
+
+#two
+{
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#three
+{
+  padding-left: 2rem;
+   padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#four
+{
+  padding-right: 2rem;
+   padding-top: 2rem; 
+  padding-bottom: 2rem;
+}
+
 .card:nth-child(even) img{
     order:2;
 }
